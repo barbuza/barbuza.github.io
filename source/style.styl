@@ -1,0 +1,46 @@
+@import "nib/reset"
+
+global-reset()
+
+html
+  height 100%
+  font-family Roboto
+  font-weight 300
+  font-size 140%
+
+body
+  text-align center
+  background #f3f3f3
+  vertical-align middle
+  min-height 100%
+
+.vcard
+  display inline-block
+  padding 2em
+  margin-top 3em
+  text-align left
+  background #fff
+  border #eee
+  position relative
+
+  .photo
+    position absolute
+    top 50%
+    margin-top -100px
+    width 200px
+    height 200px
+    border-radius 110px
+    border 4px solid #ddd
+    float left
+
+  div, a
+    margin-left calc(unquote("200px + 2rem"))
+    display block
+    line-height 150%
+
+  .fn
+    font-size 120%
+
+  a
+    color #37607d
+    text-decoration underline
