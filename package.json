@@ -2,6 +2,6 @@
   "name": "barbuza-github-io",
   "version": "0.1.0",
   "devDependencies": {
-    "lgen": "~0.1.3"
+    "lgen": "~0.1.4"
   }
 }
